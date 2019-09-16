@@ -1,0 +1,13 @@
+<form [formGroup]="loginForm" (ngSubmit)="onSubmitForm()">
+    <div class="form-group">
+        <h5>Login</h5>
+        <input formControlName="username" type="text" class="form-control" placeholder="username">
+        <input formControlName="password" type="text" class="form-control" placeholder="password">
+        <button class="btn btn-success float-right" type="submit">Submit</button>
+    </div>
+</form>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let item of cartItems">
+        <span>{{ item.name }}</span>
+    </li>
+</ul>
