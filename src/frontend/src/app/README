@@ -1,0 +1,16 @@
+**LegacyBabies documentation**
+
+1. Create a database schema in mySQL named shopping_cart;
+2. Create a table called items.
+
+use shopping_cart;
+
+
+INSERT INTO items (id,category, domestic, image_url, imported, name, price, quantity,total,sales_tax, import_fee) values (1, "books",true, "https://m.media-amazon.com/images/I/51oRxqDz4UL._AC_UY436_FMwebp_QL65_.jpg", false, "Disney Baby My First Christmas (Disney Touch and Feel)",7.32, 20,0,0,0);
+INSERT INTO items (id,category, domestic, image_url, imported, name, price, quantity,total,sales_tax, import_fee) values (2, "books",true, "https://m.media-amazon.com/images/I/61-OXjjyhML._AC_UY436_FMwebp_QL65_.jpg", false, "One Love (Music Books for Children, African American Baby Books, Bob Marley Book for Kids)",7.67, 13,0,0,0);
+INSERT INTO items (id,category, domestic, image_url, imported, name, price, quantity,total,sales_tax, import_fee) values (3, "books",false, "https://m.media-amazon.com/images/I/51fKfgwzVKL._AC_UY436_FMwebp_QL65_.jpg", true, "Welcome to the World - keepsake gift book for a new baby",10.09, 15,0,0,0);
+INSERT INTO items (id,category, domestic, image_url, imported, name, price, quantity,total,sales_tax, import_fee) values (4, "books",false, "https://m.media-amazon.com/images/I/81DADklRuTL._AC_UY436_FMwebp_QL65_.jpg", true, "Love You Forever",8.80, 14,0,0,0);
+INSERT INTO items (id,category, domestic, image_url, imported, name, price, quantity,total,sales_tax, import_fee) values (5, "books",false, "https://m.media-amazon.com/images/I/91HHxxtA1wL._AC_UY436_FMwebp_QL65_.jpg", true, "The Wonderful Things You Will Be",10.21, 35,0,0,0);
+
+
+
